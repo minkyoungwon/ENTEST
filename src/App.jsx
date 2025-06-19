@@ -20,7 +20,7 @@ function App() {
         </div>
       </header>
 
-      {/* Intro - Carousel */}
+      {/* Intro */}
       <section id="home" className="hero-section">
         <img src={images[index]} className="hero-image" />
         <div className="hero-overlay">
@@ -34,7 +34,7 @@ function App() {
           </div>
         </div>
         
-        {/* Navigation Arrows */}
+        {/* Navigation */}
         <button 
           onClick={() => setIndex(index === 0 ? images.length - 1 : index - 1)}
           className="hero-nav-button hero-nav-left"
